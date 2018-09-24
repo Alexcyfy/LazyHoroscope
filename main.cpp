@@ -11,9 +11,9 @@ int main()
   string lastname;
   int lucky;
   //get user input
-  cout<<"What is your first name? ";
+  cout<<"What is your first name? "<<endl;
   cin>>firstname;
-  cout<<"What is your last name? ";
+  cout<<"What is your last name? "<<endl;
   cin>>lastname;
   //tell fortune
   lucky = firstname.length();
