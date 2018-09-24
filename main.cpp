@@ -19,7 +19,7 @@ int main()
   lucky = firstname.length();
   cout<<"Welcome, ";
   cout<<firstname[0]<<lastname[0];
-  cout<<", here is your fortune...";
+  cout<<", here is your fortune..."<<endl;
   cout<<"Your lucky number is "<<lucky<<endl;
   int index = lastname.length() -1;
   if(firstname[0] == 'A' || firstname[0] == 'E' || firstname[0] == 'I' || firstname[0] == 'O' || firstname[0]=='U'||
