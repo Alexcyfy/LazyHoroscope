@@ -11,9 +11,9 @@ int main()
   string lastname;
   int lucky;
   //get user input
-  cout<<"What is your first name? "<<endl;
+  cout<<"What is your first name?"<<endl;
   cin>>firstname;
-  cout<<"What is your last name? "<<endl;
+  cout<<"What is your last name?"<<endl;
   cin>>lastname;
   //tell fortune
   lucky = firstname.length();
@@ -33,7 +33,7 @@ firstname[0]=='a'||firstname[0]=='e'|| firstname[0]=='i'||firstname[0]=='o'||fir
   }
   if(lastname[index] =='A'||lastname[index] =='E'||lastname[index] =='I'||lastname[index] =='O'||lastname[index] =='U'||lastname[index] =='a'||lastname[index] =='e'||lastname[index] =='i'||lastname[index] =='o'||lastname[index] =='u')
   {
-  cout<<"you have already met your true love!"<<endl;
+  cout<<"you have already met your true love."<<endl;
   }
   cout<<"have a good day!"<<endl;
  return 0;
